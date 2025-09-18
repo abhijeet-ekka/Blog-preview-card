@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color:  hsl(47, 88%, 63%);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.container{
+    width:380px;
+    height: 565px;
+    padding: 1.2rem;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0 0 black ;
+    margin: 3rem auto;
+}
+
+.preview-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-image img{
+    border-radius: 10px;
+}
+
+.preview-card-text{
+    margin-top: 1.2rem;
+    margin-left: 5px;
+}
+
+.yellow h1{
+    font-size: 1em;
+}
+
+.yellow{
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    width: 90px;
+}
+
+.publised-date{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+.preview-text{
+    color:#2828287f;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.avator{
+ display: flex;
+ align-items: center;
+}
+
+.avator img{
+    width: 50px;
+}
+
+.name{
+    margin-left: 1rem;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+/* 
+
+
+Media Queries
+
+
+
+*/
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .preview-image img{
+        width: 100%;
+    }
+}
